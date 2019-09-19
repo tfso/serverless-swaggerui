@@ -1,14 +1,23 @@
 {
-  "name": "serverless-swaggerui",
+  "name": "@tfso/serverless-swaggerui",
   "version": "0.0.1",
-  "description": "Auto generate swagger endpoint for serverless.  The endpoing will make UI and swagger.json files available.",
+  "description": "Plugin that auto generates swagger endpoint for serverless.  The endpoint will make UI and swagger.json files available.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tfso/serverless-swaggerui.git"
+  },
   "author": "24SevenOffice",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "archiver": "^3.1.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/tfso/serverless-swaggerui/issues"
+  },
+  "homepage": "https://github.com/tfso/serverless-swaggerui#readme",
+  "devDependencies": {}
 }
