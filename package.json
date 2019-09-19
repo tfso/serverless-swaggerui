@@ -1,6 +1,6 @@
 {
   "name": "@tfso/serverless-swaggerui",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin that auto generates swagger endpoint for serverless.  The endpoint will make UI and swagger.json files available.",
   "main": "index.js",
   "scripts": {

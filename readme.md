@@ -4,13 +4,13 @@ A plugin that automatically sets up a /swagger-endpoint that exposes UI and a sw
 ## Usage
 First run:
 ```
-$ npm --save-dev install serverless-swaggerui
+$ npm --save-dev install @tfso/serverless-swaggerui
 ```
 
 Then, in the serverless.yml file, add the following:  
 ```yaml
 plugins:
-  - serverless-swaggerui
+  - "@tfso/serverless-swaggerui"
 ```
 This should be everything.  A file called swagger.json must exist on the root of your serverless project.  
   
