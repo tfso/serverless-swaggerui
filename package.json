@@ -1,0 +1,14 @@
+{
+  "name": "serverless-swaggerui",
+  "version": "0.0.1",
+  "description": "Auto generate swagger endpoint for serverless.  The endpoing will make UI and swagger.json files available.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "24SevenOffice",
+  "license": "Apache 2.0",
+  "dependencies": {
+    "archiver": "^3.1.1"
+  }
+}
