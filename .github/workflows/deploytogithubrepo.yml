@@ -32,14 +32,6 @@ jobs:
         run: |  
           npm install
       
-      - name: test
-        run: npm test
-
-      - name: Conventional Changelog Action
-        uses: TriPSs/conventional-changelog-action@v3
-        with:
-          github-token: ${{ secrets.GH_TOKEN }}
-
       - name: Publish to Github Packages
         run: npm publish
         env:
